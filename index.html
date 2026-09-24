@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="main">
+    <nav>
+      <svg viewBox="0 0 111 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+        <path d="M105.062 14.28L111 30c-1.75-.25-3.5-.56-5.28-.84l-3.35-8.69-3.43 7.97c-1.69-.28-3.35-.38-5.03-.6l6.03-13.75-5.47-14.09h5.06l3.06 7.87 3.28-7.87h5.13l-5.94 14.28zM90.47 0h-4.6v27.25c1.5.09 3.06.16 4.6.34V0zm-8.56 26.94c-4.19-.28-8.38-.53-12.66-.63V0h4.69v21.87c2.69.06 5.38.28 7.97.41v4.66zm-17.66-16.28v4.69h-6.4v10.65h-4.63V0h13.13v4.69h-8.5v5.97h6.4zM45.34 4.69v21.56c-1.56 0-3.15 0-4.69.06V4.69h-4.84V0h14.4v4.69h-4.87zm-14.59 10.9c-2.06 0-4.5 0-6.25.09v6.97c2.75-.19 5.5-.41 8.28-.5v4.5l-12.97 1.03V0h12.97v4.69h-8.28v6.31c1.81 0 4.59-.09 6.25-.09v4.68zM4.78 12.97v16.37C3.09 29.53 1.59 29.75 0 30V0h4.47l6.09 17.03V0h4.69v28.06c-1.66.28-3.35.38-5.13.63L4.78 12.97z"/>
+      </svg>
+      <div class="button">
+        <button>English</button>
+        <button>Sign In</button>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h1>Unlimited movies, shows, and more</h1>
+      <h3>Starts at ₹149. Cancel at any time.</h3>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="ayush">
+        <input id="label" type="email" placeholder="Email address">
+        <button id="start">Get Started <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="https://assets.nflxext.com/ffe/siteui/vlv3/7ea4545e-42d3-4ebf-82fd-0e1984dc6375/web/IN-en-20260316-TRIFECTA-perspective_789c5633-3949-4708-8e6c-8ddfd22ed696_large.jpg" alt="Netflix Background">
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <!-- Trending Section -->
+  <div class="second_main">
+    <p id="trend">Trending Now</p>
+    <div class="movies">
+      <div class="movie-card">
+        <img src="https://occ-0-4344-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYWfklg5D5btQoekHBjGHSFXDW_EezXrT97RnSaEwirkVnCt91QaQlcPWCxtfkSrW04hOcHguRrAMgyKTJzs2_PKkFkbs60DHC4.webp?r=05f" alt="Movie 1">
+        <div class="movie-number">1</div>
+      </div>
+      <div class="movie-card">
+        <img src="https://occ-0-4344-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUbFYNcBU1gaF6EH7bkTWUn3QmoX13ZfIY_IahHOvhPNAwqb0UQYrY1QWimr8Bp8V7Oo2UZ4ZAoHqzIvvGStYcj45EeC8v3leqI.webp?r=13c" alt="Movie 2">
+        <div class="movie-number">2</div>
+      </div>
+      <div class="movie-card">
+        <img src="https://occ-0-4344-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcwMiAXNKvtzgN1Kx06ht1pT-yTXiVSQy0BKogrxRHkSiGZlRtWZbq2ROt1kkWqfM2PWVvgDNFMw73KTzVFP0dnMIY1MsQEVJIeBdS5U2PG52vbiBsX9ajBuOg6ZrWR1H_X-.webp?r=df5" alt="Movie 3">
+        <div class="movie-number">3</div>
+      </div>
+      <div class="movie-card">
+        <img src="https://occ-0-4344-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABebyeINQUXO9iLHLVEumBUWdSQbveielyzQxftyysGYpXeG5wRpST1AN_3kkjclI3pc3g7tnVM1u3sRIN7biFgcyXApdGl8asdHUiLKluf_M7qU0Jc9_O7YWH0OW10CsG6uw.webp?r=862" alt="Movie 4">
+        <div class="movie-number">4</div>
+      </div>
+      <div class="movie-card">
+        <img src="https://occ-0-4344-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRwCYHvOydLVAruaaaEH54F6sXscQA7EidAnOK-kF77rpLdyzZpKCV1w0fWkJESPL8jfZ6UU7nJU294L0-c6H_FG35zcLcNwxDo.webp?r=352" alt="Movie 5">
+        <div class="movie-number">5</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <!-- More Reasons to Join Section -->
+  <div class="reasons-section">
+    <h2>More reasons to join</h2>
+    <div class="reasons-grid">
+      <div class="reason-card">
+        <h3>Enjoy on your TV</h3>
+        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        <svg class="reason-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 3H3C1.89 3 1 3.89 1 5V17C1 18.11 1.89 19 3 19H8V21H16V19H21C22.11 19 23 18.11 23 17V5C23 3.89 22.11 3 21 3ZM21 17H3V5H21V17Z" fill="#E50914"/>
+        </svg>
+      </div>
+      <div class="reason-card">
+        <h3>Download your shows to watch offline</h3>
+        <p>Save your favourites easily and always have something to watch.</p>
+        <svg class="reason-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 9H15V3H9V9H5L12 16L19 9ZM5 18V20H19V18H5Z" fill="#E50914"/>
+        </svg>
+      </div>
+      <div class="reason-card">
+        <h3>Watch everywhere</h3>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        <svg class="reason-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 3H3C1.89 3 1 3.89 1 5V19C1 20.11 1.89 21 3 21H21C22.11 21 23 20.11 23 19V5C23 3.89 22.11 3 21 3ZM21 19H3V5H21V19ZM8 17H16V15H8V17Z" fill="#E50914"/>
+        </svg>
+      </div>
+      <div class="reason-card">
+        <h3>Create profiles for kids</h3>
+        <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        <svg class="reason-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 6C13.66 6 15 7.34 15 9C15 10.66 13.66 12 12 12C10.34 12 9 10.66 9 9C9 7.34 10.34 6 12 6ZM12 20.2C9.5 20.2 7.29 18.92 6 16.98C6.03 14.99 10 13.9 12 13.9C13.99 13.9 17.97 14.99 18 16.98C16.71 18.92 14.5 20.2 12 20.2Z" fill="#E50914"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <details>
+        <summary>What is Netflix?</summary>
+        <div class="faq-content">
+          Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.<br><br>
+          You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+        </div>
+      </details>
+      <details>
+        <summary>How much does Netflix cost?</summary>
+        <div class="faq-content">
+          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+        </div>
+      </details>
+      <details>
+        <summary>Where can I watch?</summary>
+        <div class="faq-content">
+          Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+        </div>
+      </details>
+      <details>
+        <summary>How do I cancel?</summary>
+        <div class="faq-content">
+          Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+        </div>
+      </details>
+      <details>
+        <summary>Is Netflix good for kids?</summary>
+        <div class="faq-content">
+          The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+        </div>
+      </details>
+    </div>
+    
+    <div class="faq-email">
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="ayush">
+        <input id="label" type="email" placeholder="Email address">
+        <button id="start">Get Started <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <a href="#">Questions? Call 000-800-919-1694</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">FAQ</a>
+      <a href="#">Help Centre</a>
+      <a href="#">Account</a>
+      <a href="#">Media Centre</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Jobs</a>
+      <a href="#">Ways to Watch</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookie Preferences</a>
+      <a href="#">Corporate Information</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Speed Test</a>
+      <a href="#">Legal Notices</a>
+      <a href="#">Only on Netflix</a>
+    </div>
+    <div class="footer-lang">
+      <select>
+        <option>English</option>
+        <option>Hindi</option>
+      </select>
+    </div>
+    <div class="footer-bottom">
+      <p>Netflix India</p>
+    </div>
+  </footer>
+
+</body>
+</html>
